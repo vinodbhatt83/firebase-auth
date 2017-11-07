@@ -1,6 +1,26 @@
 {
   "name": "authentication",
   "version": "0.0.1",
+  "description": "Firebase Authentication Package",
+  "main": "./package/fbs-authentication/fbsauthencation.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinodbhatt83/firebase-auth.git"
+  },
+  "author": "Vinod Bhatt <vinod.bhatt83@gmail.com> (https://nourl.com)",
+  "homepage": "https://github.com/vinodbhatt83/firebase-auth#readme",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -29,9 +49,6 @@
     "karma": "^0.12.23",
     "load-grunt-tasks": "~0.4.0",
     "time-grunt": "~0.2.1"
-  },
-  "engines": {
-    "node": ">=0.10.0"
   },
   "scripts": {
     "test": "grunt test"
