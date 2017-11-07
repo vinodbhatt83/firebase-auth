@@ -11,7 +11,7 @@
  * @param {object} config
  * @return {object}
  */
-function firebaseAuth(params) {
+module.exports = function(params) {
 
     var config = {
         apiKey: params.apiKey,
@@ -36,7 +36,7 @@ function firebaseAuth(params) {
     };
 
     // Initialize the FirebaseUI Widget using Firebase.
-    var ui = new firebaseui.auth.AuthUI(firebase.auth());
+    var fbaseUi = new firebaseui.auth.AuthUI(firebase.auth());
 
     var getUiConfig = function() {
         return {
@@ -107,7 +107,7 @@ function firebaseAuth(params) {
     var handleSignedOutUser = function() {
         document.getElementById('fbase-user-signed-in').style.display = 'none';
         document.getElementById('fbase-user-signed-out').style.display = 'block';
-        ui.start('#firebase-auth', getUiConfig());
+        fbaseUi.start('#firebase-auth', getUiConfig());
     };
 
     // Listen to change in auth state so it displays the correct UI for when
@@ -128,9 +128,5 @@ function firebaseAuth(params) {
         });
     };
 
-    window.addEventListener('load', initApp);
+    return window.addEventListener('load', initApp);
 };
-
-module.exports = {
-	firebaseAuth
-}
