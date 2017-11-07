@@ -1,12 +1,12 @@
 {
-  "name": "firebase-auth",
+  "name": "authentication",
   "version": "0.1.1",
   "description": "Firebase Authentication Package",
   "main": ["./package/fbs-authentication/fbsauthencation.js"],
   "license": "MIT",
   "homepage": "https://github.com/vinodbhatt83/firebase-auth",
   "_source": "git@github.forbes.com:vinodbhatt83/firebase-auth.git",
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
