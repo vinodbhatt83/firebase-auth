@@ -1,8 +1,8 @@
 {
-  "name": "authentication",
-  "version": "0.0.1",
-  "description": "Firebase Authentication Package",
-  "main": "./package/fbs-authentication/fbsauthencation.js",
+  "name": "firebaseAuth",
+  "version": "0.1.0",
+  "description": "Firebase Authentication",
+  "main": "./package/firebase-auth/authentication.js",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   "engines": {
     "node": ">=4.2.4"
   },
-  "private": false,
+  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
