@@ -11,7 +11,7 @@
  * @param {object} config
  * @return {object}
  */
-module.exports = function(params) {
+function firebaseAuth(params) {
 
     var config = {
         apiKey: params.apiKey,
@@ -130,3 +130,7 @@ module.exports = function(params) {
 
     window.addEventListener('load', initApp);
 };
+
+module.exports = {
+	firebaseAuth
+}
