@@ -1,7 +1,7 @@
 fbs-authentication
 ==============
 
-Forbes authentication package. Initializes firebase authencation in your project.
+Forbes authentication package.
 
 **Usage**
 
