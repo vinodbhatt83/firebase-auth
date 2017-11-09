@@ -2,7 +2,7 @@
   "name": "firebase-auth",
   "version": "0.3.0",
   "description": "Firebase Authentication",
-  "main": "./package/firebase-auth/authentication.js",
+  "main": "./src/authentication.js",
   "scripts": {
     "test": ""
   },
