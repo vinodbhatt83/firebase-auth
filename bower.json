@@ -1,5 +1,5 @@
 {
-  "name": "firebaseAuth",
+  "name": "firebase-auth",
   "version": "0.2.0",
   "description": "Firebase Authentication",
   "main": "./package/firebase-auth/authentication.js",
