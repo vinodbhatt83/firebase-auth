@@ -19,10 +19,7 @@
   "engines": {
     "node": ">=4.2.4"
   },
-  "dependencies": {
-  "requirejs": "~2.3.5",
-  "jquery": "~3.2.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-autoprefixer": "~0.4.0",
